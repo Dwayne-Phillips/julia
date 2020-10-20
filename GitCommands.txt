@@ -1,0 +1,15 @@
+
+Git commands you will use
+as of 20 October 2020
+
+
+NEW FILE:
+git add new-file
+git commit new-file -m "Message you want to go with the new file"
+
+EXISTING FILE YOU CHANGE:
+git commit changed-file -m "Message you want to go with the changed file"
+
+PUSH RESULTS UP TO GITHUB.COM
+git push -u https://GitHub.com/Dwayne-Phillips/julia
+
