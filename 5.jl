@@ -14,4 +14,18 @@ summarize(fd)
 
 text(fd)
 
+# let's try again and make a StringDocument from a file
+# so we can use the preprocessing things on it.
+
+titusfd=FileDocument("/users/dwaynephillips/titus.txt")
+
+titusString=StringDocument(text(titusfd)) 
+
+prepare!(titusString, strip_numbers)
+
+prepare!(titusString, strip_articles)
+
+# I don't like with stemming does
+# stem!(titusString)
+
 
