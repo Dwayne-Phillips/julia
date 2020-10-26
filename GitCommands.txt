@@ -1,6 +1,6 @@
 
 Git commands you will use
-as of 20 October 2020
+as of 25 October 2020
 
 
 NEW FILE:
@@ -12,4 +12,12 @@ git commit changed-file -m "Message you want to go with the changed file"
 
 PUSH RESULTS UP TO GITHUB.COM
 git push -u https://GitHub.com/Dwayne-Phillips/julia
+
+
+SYNCHRONIZE THE LOCAL REPOSITORY TO THE REMOTE ONE
+git pull
+
+NOTE: WHEN YOU MAKE ANY CHANGE OR ADD ANY FILE TO THE LOCAL
+...do the NEW FILE commands above.
+
 
