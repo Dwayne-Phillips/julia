@@ -22,6 +22,8 @@ used QuartzImageIO stopped working.
 I did the Pkg.add("ImageMagick") instead, and it
 works again.
 I don't understand why???
+ANOTHER ALTERNATIVE
+is to use ImageIO instead of ImageMagick or QuartzImageIO.
 
 ==============================================#
 
