@@ -27,6 +27,10 @@ An example of using TextAnalysis.jl.
 
 Reading an image file and using a quick edge mask to detect edges.
 
+## crop.jl
+
+Read an image. Read its size. Crop the image. Show the original and cropped images.
+
 ## tmp.jl
 
 Similar to 1.jl.
