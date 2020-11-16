@@ -33,6 +33,9 @@ input_image = nothing
 input_image = load(url_path)
 imshow(input_image)
 
+number_of_rows = size(input_image, 1)
+number_of_cols = size(input_image, 2)
+
 save("sillyName.jpg",input_image)
 
 # The End
