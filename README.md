@@ -32,6 +32,11 @@ An example that reads a color jpg from the Internet and writes it locally.
 Do what 6.jl does PLUS convert the color image to numbers and manipulate
 the numbers.
 
+## 8.jl
+
+Read a color jpg image, convert it to grayscale, save the grayscale
+to tif and bmp files.
+
 ## edge.jl
 
 Reading an image file and using a quick edge mask to detect edges.
