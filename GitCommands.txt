@@ -2,6 +2,11 @@
 Git commands you will use
 as of 25 October 2020
 
+CLONE FROM a GitHub repository
+git clone https://github.com/Dwayne-Phillips/CIPS
+
+INIT a new repository
+git init
 
 NEW FILE:
 git add new-file
